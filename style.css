@@ -1,0 +1,89 @@
+header, .main {
+  background-color: #1a0b2e;
+ 
+}
+
+.navber {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a0b2e;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 20px;
+}
+.nav-item {
+  display: flex;
+  gap: 79px;
+}
+.nav-item li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.nav-btn button,
+.content-btn .btn-one {
+  padding: 6px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+}
+.banner {
+  background-image: url(/assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 660px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner .second-btn {
+  position: absolute;
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 800px;
+  margin-top: 30px;
+  color: #1a0b2e;
+  background-color: #00ff88;
+}
+.banner .banner-content {
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 380px;
+}
+.banner .content-btn {
+  text-align: center;
+}
+.content-btn button {
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+}
+.content-btn .btn-one {
+  padding: 15px;
+}
+.content-btn .btn-two {
+  border-color: #00ff88;
+  background: none;
+  color: #00ff88;
+  border-radius: 30px;
+  padding: 15px;
+}
+.main{
+    color: white;
+    margin-top: 0;
+}
+
+
+/* for resoponsive */
+@media screen and (max-width:576px){
+    .navber
+}
