@@ -51,7 +51,7 @@ header,
 }
 .banner .second-btn {
   position: absolute;
-  top: 12%; 
+  top: 12%;
   left: 58%;
   transform: translateX(-50%);
   padding: 6px 15px;
@@ -61,7 +61,6 @@ header,
   border: none;
   margin: 0;
 }
-
 
 .banner .banner-content {
   color: white;
@@ -268,7 +267,6 @@ header,
   transition: all 0.3s ease;
 }
 
-
 .social-links a:hover {
   background: linear-gradient(45deg, #ff00cc, #3333ff);
   color: #ffffff;
@@ -279,8 +277,8 @@ header,
 .video {
   background-color: #1a0b2e;
 }
-.main-footer{
- background-image: url(assets/footer-bg.png);
+.main-footer {
+  background-image: url(assets/footer-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -366,10 +364,8 @@ header,
   }
   .banner .second-btn {
     position: absolute;
-    top: 08%; 
-  left: 70%;
-  
-
+    top: 08%;
+    left: 70%;
   }
   .nav-item {
     display: none;
@@ -416,7 +412,7 @@ header,
   .social-links {
     justify-content: center;
   }
- 
+
   .ad-video {
     grid-template-columns: 1fr;
     max-width: 500px;
@@ -427,18 +423,17 @@ header,
   .footer-links {
     gap: 15px;
   }
-   
-.main-footer {
+
+  .main-footer {
     background-image: url("assets/footer-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: block !important;
     width: 100%;
-    padding: 100px 0 !important; /* এটি ছবিটিকে বড় করে দেখাবে */
-    min-height: 300px;
+    padding: 100px 0 !important;
   }
-   * {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
