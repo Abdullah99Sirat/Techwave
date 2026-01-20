@@ -33,7 +33,9 @@ header,
   background: linear-gradient(to right, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
 }
 .banner {
-  
+  background-image: url(assets/hero-bg.png);
+   background-size: cover;
+  background-position: center;
   height: 660px;
 }
 
