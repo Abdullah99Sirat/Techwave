@@ -276,7 +276,7 @@ header,
   background-color: #1a0b2e;
 }
 .main-footer {
-background-image: url(/assets/footer-bg.png);
+background-image: url(assets/footer-bg.png);
   background-size: cover;
   background-position: center;
 }
